@@ -1,10 +1,8 @@
-# About repository
+# Readme
 
-The purpose of this repository is to transform the Australian Bureau of Statistics (ABS) data into a required format for data insight generation. The repository includes ABS data and Jupyter Notebook as well as the transformed data file.
+The purpose of this repository is to store transformed data that will be used for insight generation. We saved the details of the process in 'data_transformation.ipynb' Jupyter Notebook.
 
-The data “Commuting Distance by Personal Characteristics” is originally from “2071.0.55.001 - Census of Population and Housing: Commuting to Work - More Stories from the Census”  collection from ABS. This data collection includes an analysis of the commuting distance by Personal Characteristics in Australia in 2016.  The data is available at (https://www.abs.gov.au/AUSSTATS/abs@.nsf/DetailsPage/2071.0.55.0012016?OpenDocument)
+## Data 
+The Australian Bureau of Statistics (ABS) provides a wide range of statistical data on Australia's economic, population, environmental, and social issues. The “Commuting Distance by Personal Characteristics” data, one of the data cubes within the “2071.0.55.001 - Census of Population and Housing: Commuting to Work - More Stories from the Census” collection from the ABS. This data contains information about distance travelled between a person's place of usual residence and place of work associated with personal characteristics such as gender, age, occupation, industry, and weekly income.
 
-The Jupyter Notebook is a written Python program language that reads the ABS data to transform into a required format for data insight generation.
-
-
-Cite the code: [![DOI](https://zenodo.org/badge/360403162.svg)](https://zenodo.org/badge/latestdoi/360403162)
+We transformed this ABS data to an easy-to-process format and saved it to a new CSV file called “transformed_data.csv” in this repository.
